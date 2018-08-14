@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+.me {
+	justify-content: center;
+	text-align: center;
+}
+
+#me {
+	width: auto;
+	max-width: 500px;
+	width: 100%;
+	margin-bottom: 20px;
+}

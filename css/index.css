@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	height: 100%;
+	color:#fff;
+	text-align: center;
+	margin-top: 7vh;
+	margin-bottom: 50px;
+}
+
+div {
+	margin: 0px;
+	padding: 0px;
+}
+
+h3 {
+	font-weight: bold;
+	text-align: center;
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0px;
+}
+
+.row {
+	height: 100%;
+}
+
+.nav-link {
+	color: #f4c900;
+	margin: 0px 5px;
+	text-align: left;
+}
+
+.nav-link:hover {
+	color: #450dff;
+}
+
+svg {
+	margin: 0px;
+	margin-top: 10px;
+}
+
+.svgicon {
+	width: 100px;
+}
+
+.index-left {
+	height: auto;
+	max-height: 100%;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+
+.index-right {
+	padding-top: 30px;
+}
+
+#MW {
+	fill: #450dff;
+	width: 65%;
+	max-width: 300px;
+	margin: 200px 0px 20px 0px;
+	padding: 0px;
+}
+
+h2 {
+	color: #450dff;
+}

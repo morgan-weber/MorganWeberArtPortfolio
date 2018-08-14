@@ -1,0 +1,21 @@
+.content {
+	margin: 4.5px auto;
+}.content {
+	margin: 4.5px auto;
+}.content {
+	margin: 4.5px auto;
+}@charset "utf-8";
+/* CSS Document */
+
+.content-p {
+	max-height: 800px;
+	width: auto;
+	margin: 10px auto;
+}
+
+.content-l {
+	width: 100%;
+	max-width: 800px;
+  	height: auto;
+	margin: 10px auto;
+}

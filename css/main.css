@@ -1,0 +1,200 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 75px;
+	margin-bottom: 50px;
+	width: 100%;
+	color:#4D4D4D;
+}
+
+p {
+	font-weight: normal;
+	font-size: 14px;
+}
+
+a {
+	font-weight:bold;
+	text-decoration: none;
+	color: #f4c900;
+}
+
+a:hover {
+	font-weight:bold;
+	text-decoration: none;
+	color: #450dff;
+}
+
+a { 
+  transition: 100ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 100ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+}
+
+h2 {
+	font-weight: bold;
+	text-align: center;
+}
+
+h3 {
+	font-weight: bold;
+	text-align: center;
+}
+
+h5 {
+	font-weight: bold;
+	text-align: center;
+}
+
+.bg-brand {
+	background-color: #fff;
+	height: auto;
+	padding: 5px;
+}
+
+.btn-brand {
+	background-color: #fff;
+	margin: 3px;
+}
+
+.brand-toggle {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3.5px;
+}
+
+.nav-link {
+	color: #f4c900;
+	margin: 0px 5px; 
+}
+
+.nav-link:hover {
+	color: #450dff;
+}
+
+.pg-subhead {
+
+	padding-top: 5px;
+	margin: 5px 0px;
+}
+
+/* This section is vital to scalability of artwork */
+
+.wrapper {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin: 4.5px auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper > div:first-child {
+	margin-right: 10px;
+}
+
+.wrapper img {
+	display: block;
+	max-width: 100%;
+}
+
+/* End artwork scalability */
+
+svg {
+	fill: #f4c900;
+}
+
+svg:hover {
+	fill: #450dff;
+}
+
+svg { 
+  transition: 100ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 100ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+#MW {
+	margin: 4px 10px;
+}
+
+.content {
+	width: 100%;
+	max-width: 600px;
+	margin: 10px auto;
+}
+
+.newcontent {
+	margin: 4.5px auto;
+}
+
+.artimage {
+	position: relative;
+}
+
+.imageinfo {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #000;
+	opacity: 0.5;
+	fill: #fff;
+}
+
+.imageinfo:hover {
+	fill: #fff;
+}
+
+#dropdown {
+	text-align: center;
+}
+
+#info {
+	max-width: 600px;
+	margin: auto auto;
+}
+
+.about {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.social {
+	height: 40px;
+}
+
+.sm {
+	fill: #4d4d4d;
+}
+
+#sm:hover {
+	fill: #450dff;
+}
+
+.videowrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	max-width: 800px;
+	margin: 10px auto 0px auto;
+}
+.videowrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	max-width: 800px;
+	max-height: 450px;
+	margin-bottom: 0px;
+}
